@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>real</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- 마우스 -->
+    <link rel="stylesheet" href="css/mouse.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.css">
+    <!-- 애니메이션 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  
+
+    <!-- fullpage -->
+    <script src="js/fullpage.js"></script>
+    <!-- TweenMax -->
+    <script src="js/TweenMax.min.js"></script>
+   
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/fc9b086623.js" crossorigin="anonymous"></script>
+
+
+    
+    <script src="js/main.js" defer></script>
+    <script src="js/text.js" defer></script>
+
+    
+</head>
+<body>
+    <!-- 마우스 영역 -->
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+
+    <div class="all">
+        <div class="popup_video">
+            <video autoplay muted>
+                <source src="video/seven.mp4">
+            </video>
+            <h2>2023 Portfolio</h2>
+            <p>Welcome</p>
+            <button class="close">SKIP</button>
+
+        </div>
+        <header>
+            <div class="h-wrap">
+
+                <!-- <button class="open"></button> -->
+                <div class="h-logo">
+                    <a href="#p1"><h2>순순</h2></a>
+                </div>
+                <div class="small-box">
+                    <div class="clip">
+                        <img src="images/0.jpg" alt="썸네일" data-video="images/video.gif"
+                        data-image="images/0.jpg">
+                    </div>
+                </div>
+                <nav>
+                    <i class="fa-solid fa-bars fa-2xl"></i>
+                    <div class="test">
+                        <ul class="menu">
+                            <li data-num="01"><a href="#p1">home</a></li>
+                            <li data-num="02"><a href="#p2">profile</a></li>
+                            <li data-num="03"><a href="#p3">portfolio</a></li>
+                            <li data-num="04"><a href="#p4">contact</a></li>
+                            <li data-num="05"><a href="#p5">etc</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- <button><a href="#p1" class="go-top"><span></span><span></span></a></button> -->
+            </div>
+        </header>
+        <main id="fullpage">
+            <div class="m-wrap">
+                <!-- 홈 -->
+                <section class="section home p1">
+                    <div class="home-wrap">
+                        <div class="home-content-text">
+                            <div class="text-wrap">
+                                <h1 class="animate__fadeInLeft">Welcome</h1>
+                                <h2 class="active">I'm A <span></span></h2>
+                                <hr>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore eveniet laborum rerum! Vitae nemo, amet dignissimos placeat delectus sint ducimus doloremque eligendi quaerat iure eum iusto illo at, quasi esse.</p>
+                            </div>
+                        </div>
+                        <div class="home-content-picture"></div>
+                        <button class="home-mouse"><i class="fa-solid fa-computer-mouse fa-bounce"></i></button>
+                    </div>
+                </section>
+
+                
+                <!-- 프로필 -->
+                <div class="section profile p2">
+                    <div class="profile-wrapper">
+                        <div class="profile-picture">
+                            <img src="images/main man.jpg" alt="test">
+                        </div>
+                        <div class="profile-text">
+                            <div class="text1">
+                                <p>kk</p>
+                            </div>
+                            <div class="text2">
+                                <p>kk</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-wrapper">
+                        <div class="skill itme1">1</div>
+                        <div class="skill itme2">2</div>
+                        <div class="skill itme3">3</div>
+                        <div class="skill itme4">4</div>
+                        <div class="skill itme5">5</div>
+                    </div>
+
+                </div>
+
+
+                <!-- 포트폴리오 -->
+                <div class="section portfolio p3">
+                    <section class="gallery">
+                        <!-- 헤더 -->
+                        <div class="gallery-header">
+                            <h2>
+                                <i class="fa-solid fa-bug"></i>
+                                <span>SOONJAE</span>
+                
+                            </h2>
+                            <P>2023 soonjae &copy; All right reserved</P>
+                        </div>
+                        <!-- 영상 -->
+                        <ul class="gallery-collection">
+                            <li>
+                                <div class="inner">
+                                    <div class="txt">
+                                        <h3>01</h3>
+                                        <p>첫번재 영상</p>
+                                    </div>
+                                    <!-- 이미지나 영상 등 독립적인콘텐츠 정의 -->
+                                    <figure>
+                                        <video src="video/vid1.mp4" loop muted  ></video>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inner">
+                                    <div class="txt">
+                                        <h3>02</h3>
+                                        <p>두번재 영상</p>
+                                    </div>
+                                    <!-- 이미지나 영상 등 독립적인콘텐츠 정의 -->
+                                    <figure>
+                                        <video src="video/vid2.mp4" loop muted  ></video>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inner">
+                                    <div class="txt">
+                                        <h3>03</h3>
+                                        <p>세번재 영상</p>
+                                    </div>
+                                    <!-- 이미지나 영상 등 독립적인콘텐츠 정의 -->
+                                    <figure>
+                                        <video src="video/vid3.mp4" loop muted  ></video>
+                                    </figure>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inner">
+                                    <div class="txt">
+                                        <h3>04</h3>
+                                        <p>네번재 영상</p>
+                                    </div>
+                                    <!-- 이미지나 영상 등 독립적인콘텐츠 정의 -->
+                                    <figure>
+                                        <video src="video/vid4.mp4" loop muted  ></video>
+                                    </figure>
+                                </div>
+                            </li>
+                        </ul>
+                
+                        <!-- 팝업 -->
+                        <div class="pop-up">
+                            <div class="txt">
+                                <h2>01</h2>
+                                <p>project</p>
+                                <button class="x">close</button>
+                            </div>
+                            <figure>
+                                <video src="video/vid1.mp4" loop muted></video>
+                            </figure>
+                        </div>
+                
+                    </section>
+                </div>
+
+
+                <!-- 콘택트 -->
+                <div class="section contact p4">
+                    <div class="p4_wrap">
+                        <div class="p4-text">
+                            <h1>contact</h1>
+                            <h2>Mobile : 010 - 9975 - 4662</h2>
+                            <h2>E-mail : ksjlove2003@naver.com</h2>
+                            <br>
+                            <img src="images/QR.jpg" alt="QR">
+                        </div>
+
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" minlength="2">
+                            </div>
+                            <div class="form-group">
+                                <label for="number">Phone Number</label>
+                                <input type="text" id="number" minlength="11">
+                            </div>
+                            <div class="form-group">
+                                <label for="msg">Message</label>
+                                <textarea name="mesaage" id="msg" ></textarea>
+                            </div>
+                            <button> send </button>
+                        </form>
+                    </div>
+
+                </div>
+
+
+                <!-- 기타등등 -->
+                <div class="section etc p5">
+                    <div class="content">
+                        <div class="content-item"></div>
+                        <div class="content-item"></div>
+                        <div class="content-item"></div>
+                        <div class="content-item"></div>
+                        <div class="content-item"></div>
+                        <div class="content-item"></div>
+                        <div class="content-item"></div>
+                        <div class="content-item"></div>
+                        <div class="content-item"></div>
+                        <div class="content-item"></div>
+                        <div class="content-item"></div>
+                        <div class="content-item"></div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+
+
+
+
+<!-- bx슬라이더 -->
+    <script>
+        $(document).ready(function(){
+          $(".slider").bxSlider();
+        });
+    </script>
+
+
+        <script>
+            $(window).scroll(function(){
+                let sect = $(this).scrollTop()
+                $('section').each(function(){
+                    let sectionOST = $(this).offset().top -500;
+                    let sectionEffect = $(this).attr('data-effect')
+                    if(sect >= sectionOST) {
+                        $(this).addClass(sectionEffect)
+                    }
+                })
+            })
+        </script>
+</body>
+
+</html>
